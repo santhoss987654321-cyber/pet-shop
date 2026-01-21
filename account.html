@@ -3,18 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-      <link rel="stylesheet" href="cart.css">
+      <link rel="stylesheet" href="account.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- <!--header-->
- 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   
- 
- <nav class="navbar navbar-light bg-light">
+  <!--header-->
+     <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand"><img src="images/logo.svg" alt=""></a>
     <form class="d-flex">
@@ -96,87 +94,72 @@
   </div>
 </nav>
 
- 
- 
- 
- <!--cart-->
-        <div class="cart">
-    <nav style="color: white;padding-top: 300px;padding-left: 300px;">
-<a class="navbar-brand" href="#"> <span style="color: white;">home / page /</span> cart</a>
-    <h1 style="font-size: 50px;">cart</h1>
-</nav>
- </div>
+     <!--account-->
+ <section>
+<div class="container-fluid d-flex">
+<div class="container mt-5 p-5">
 
-
- 
-<section class="d-flex mt-5 justify-content-center">
-
-<div class="container ms-5">
-<table class="table">
-  <tbody>
-    <tr>
-      
-      <th scope="col">Product</th>
-      <th scope="col">Quantity</th>
-      <th scope="col">Subtotal</th>
-    </tr>
-  
-    <tr>
-      <td><img src="images/product-thumbnail-11.jpg" alt="" width="100px"height=:100px;> <b>Product Name 2</b></td>
-      <td> <div>
-            <button>-</button>
-            <button>0</button>
-            <button>+</button>
-        </div></td>
-      <td>$150.00   <i class="fa-solid fa-trash"></i></td>
-    </tr>
-    <tr>
-      <td><img src="images/product-thumbnail-12.jpg" alt="" width="100px" height="100px"><b> Product Name 1 </b></td>
-      <td>
-        <div>
-            <button>-</button>
-            <button>0</button>
-            <button>+</button>
-        </div>
-    </td>
-      <td>$150.00   <i class="fa-solid fa-trash"></i></td>
-    </tr>
-  </tbody>
-</table>
+    <table class="tbox ms-5 rounded">
+        <tr>
+            <td><img src="images/logo.svg" alt=""></td>
+        </tr>
+        <tr>
+            <td> <b>Login</b></td>
+        </tr>
+        <tr>
+            
+            <td>
+                <form>
+                    <input type="text" placeholder="Username / Email" style="width: 400px;height: 40px;border-radius: 5px;">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                   <form>
+                    <input type="password" placeholder="Password" style="width: 400px; height: 40px;border-radius: 5px;">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                  <form>
+                    <input type="checkbox" value="remember me">
+                    <label for="">Remember me</label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button" data-bs-toggle="button" style="width: 400px;border-radius: 5px;">Login</a></td>
+        </tr>
+        <tr>
+            <td><p style="text-decoration: underline;">Lost your password?</p></td>
+        </tr>
+        <tr>
+            <td>By continuing, you are indicating that you have</td>
+        </tr>
+        <tr>
+            <td>read and agree to the <span style="text-decoration: underline;"> Terms of Use</span> and <span style="text-decoration: underline;"> Privacy</span></td>
+        </tr>
+        <tr>
+            <td> <p style="text-decoration: underline;">Policy</p></td>
+        </tr>
+        <tr>
+            <td>
+                Don't have an account yet? <span style="text-decoration: underline;"><a href="signup.html" style="color: black;text-decoration: none;">Sign up now.</a> </span>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--div2-->
+<div style="margin-right: 150px;">
+<img src="images/account.svg" alt="" width="500px" height="500px"><br>
+<h2> <b>Sign up and Join the Community</b></h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
 </div>
 
-<div class=" containermt-3">
-<table class="table">
- <tbody>
-    <tr>
-      <th scope="row" colspan="1">Cart Total</th>
-      
-      
-    </tr>
-    <tr>
-     
-      <td>Subtotal</td>
-      <td>$370.00</td>
-      
-    </tr>
-     <tr>
-      
-      <td>TOTAL</td>
-      <td>$370.00</td>
-      
-    </tr>
- 
-  </tbody>
-</table>
-<button type="button" class="btn btn-dark" style="width: 200px;height: 50px;">Update Cart</button>
-<button type="button" class="btn btn-dark" style="width: 200px;height: 50px;"> Continue Shopping</button><br><br>
-<button type="button" class="btn btn-lg btn-primary" style="width: 400px;height: 50px;background-color: rgb(118,172,205);">Proceed to Checkout</button>
-</div>
-</section>
-    
- 
-<!--cart-->
-
+ </section>
   <section class="">
     <div class="m-5  col-lg-6 col-md-6 sm-d-inline sm-12">
 <div class="container d-flex m-5">
@@ -299,5 +282,6 @@ Lorem ipsum dolor sit amet,
 </div>
    </footer> 
    </section>
-</body>
-</html>
+ 
+    </body>
+ </html>

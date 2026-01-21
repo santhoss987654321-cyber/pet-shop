@@ -1,4 +1,17 @@
 
+.hi:hover{
+background-color: rgb(118,172,205);
+color: white;
+}
+.hi{
+    color: gray;
+}
+
+
+.header{
+    margin-top: 200px;
+    margin: 100px;
+}
 .box{
     background-image: url(images/banner-image-bg.jpg);
 }
@@ -8,5 +21,7 @@ th{
 td{
     color: gray;
 }
-
-
+.table{
+    margin-top: 100px;
+    padding: 50px;
+}
