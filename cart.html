@@ -3,25 +3,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-      <link rel="stylesheet" href="cart.css">
+      <link rel="stylesheet" href="boot.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
- <!--header-->
- 
-  
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  
  <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand"><img src="images/logo.svg" alt=""></a>
     <form class="d-flex">
-      <input class="form-control me-5 ps-5 pe-5 align-item-center justify-content-between" type="search" placeholder="Search for more then 20.000 products" aria-label="Search" style="width:500px; border-radius: 8px;">
+      <input class="form-control me-5 ps-5 pe-5 align-item-center justify-content-between" type="search" placeholder="Search for more then 20.000 products" aria-label="Search" style="width:500px; border-radius: 8px; margin-left: 50px;">
  </form>
- <i class="fa-solid fa-magnifying-glass"></i>
- <a href="login.html"><i class="fa-regular fa-address-card" style="color: gray; font-size: 30px;padding-right: 150px;"></i></a>
+ 
+   <li class="nav-item dropdown" style="list-style-type: none;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <i class="fa-regular fa-address-card" style="color: gray; font-size: 30px;padding-right: 150px;"></i> 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="account.html"> <b>Login</b></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signup.html"> <b>Signup</b></a></li>
+ </ul>
+        </li>
   </div>
 </nav>
      <!--container-->
@@ -34,30 +43,22 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="">Home</a>
         </li>
          <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            All products
+           products
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#"> <b>items title</b></a></li>
-            <li><a class="dropdown-item" href="#">items name</a></li>
-            <li><a class="dropdown-item" href="#">items name</a></li>
-             <li><a class="dropdown-item" href="#">items name</a></li>
-              <li><a class="dropdown-item" href="#">items name</a></li>
-               <li><a class="dropdown-item" href="#">items name</a></li>
-                <li><a class="dropdown-item" href="#"> <b>items title</b></a></li>
-                 <li><a class="dropdown-item" href="#">items name</a></li>
-                   <li><a class="dropdown-item" href="#">items name</a></li>
-                     <li><a class="dropdown-item" href="#">items name</a></li>
-                       <li><a class="dropdown-item" href="#">items name</a></li>
-                         <li><a class="dropdown-item" href="#">items name</a></li>
-                        
+            <li><a class="dropdown-item" href="petfood.html">Pet Food</a></li>
+            <li><a class="dropdown-item" href="dogdress.html">Dog Dress</a></li>
+             <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+         
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Free Delivery</a>
+          <a class="nav-link" href="about page.html">About</a>
         </li><li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
         </li><li class="nav-item">
@@ -72,18 +73,18 @@
             pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">About us <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-            <li><a class="dropdown-item" href="#">shop <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-            <li><a class="dropdown-item" href="#">Single product <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-             <li><a class="dropdown-item" href="cart.html">cart <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-              <li><a class="dropdown-item" href="#">checkout <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-               <li><a class="dropdown-item" href="#">blog <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                <li><a class="dropdown-item" href="#">single post <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                 <li><a class="dropdown-item" href="#">styles <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                   <li><a class="dropdown-item" href="#">contact <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                     <li><a class="dropdown-item" href="#">thank you <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                       <li><a class="dropdown-item" href="#">my account <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
-                         <li><a class="dropdown-item" href="#">404 error <button type="button" class="btn btn-dark btn-sm">PRO</button></a></li>
+            <li><a class="dropdown-item" href="#">About us <span class="badge bg-dark">PRO</span></a></li>
+            <li><a class="dropdown-item" href="#">shop <span class="badge bg-dark">PRO</span> </a></li>
+            <li><a class="dropdown-item" href="#">Single product <span class="badge bg-dark">PRO</span></a></li>
+             <li><a class="dropdown-item" href="cart.html">cart <span class="badge bg-dark">PRO</span></a></li>
+              <li><a class="dropdown-item" href="#">checkout <span class="badge bg-dark">PRO</span></a></li>
+               <li><a class="dropdown-item" href="#">blog <span class="badge bg-dark">PRO</span></a></li>
+                <li><a class="dropdown-item" href="#">single post <span class="badge bg-dark">PRO</span></a></li>
+                 <li><a class="dropdown-item" href="#">styles <span class="badge bg-dark">PRO</span></a></li>
+                   <li><a class="dropdown-item" href="#">contact <span class="badge bg-dark">PRO</span></a></li>
+                     <li><a class="dropdown-item" href="#">thank you<span class="badge bg-dark">PRO</span></a></li>
+                       <li><a class="dropdown-item" href="account.html">my account <span class="badge bg-dark">PRO</span></a></li>
+                         <li><a class="dropdown-item" href="#">404 error <span class="badge bg-dark">PRO</span></a></li>
                        
           </ul>
         </li>
@@ -95,8 +96,6 @@
     </div>
   </div>
 </nav>
-
- 
  
  
  <!--cart-->
